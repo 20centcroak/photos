@@ -1,0 +1,64 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+
+a{
+	color:#dde;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#eef;
+}
+
+.bgimg {
+    background-image: url('../img/people.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+  color: #fff;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.modal-body{
+	color: #d33;
+}
+
+.pass-repeat {
+	margin-bottom: 10px;
+}
+.fail { background: #fba; padding: 2px; color: #333; }
+.hidden , .control{ display: none;}
+
+
+/* Popover Body */
+.popover-content {
+    background-color: #fff;
+    color: #337ab7;
+    padding: 3px;
+}
+
+

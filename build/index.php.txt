@@ -1,0 +1,9 @@
+<?php
+session_start();
+
+*$userName*
+$_SESSION["gallery"] = $userName;
+
+header("Location:https://photos.croak.fr/thumbs.php");
+
+?>

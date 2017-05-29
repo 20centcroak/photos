@@ -1,0 +1,26 @@
+penser à tester avec une très grande image et voir comment catcher l'exception indiquant que la mémoire est épuisée : faire un test sur le poind permis de l'image avant import dans upload.
+vérifier à la création de compte que ce compte n'existe pas déjà via javascript
+gérer le chargement des premières images puis ajout d'image par scrolling pour les miniatures. Gérer le chargement des images suivantes/précédentes pour les images larges
+gérer l'organisation des photos (dates, nom, derniers ajouts, ...)
+Il faudrait vérifier le nom de l'image avant l'upload ou renommer si ça ne remplit pas certains critères.
+Lorsqu'un erreur est détectée, il faudrait, en plus de la logguer, lancer le "clean" et envoyer un mail à l'administrateur.
+Vérifier l'unicité des noms d'image avant import
+Pour le menu présent sur plusieurs pages, gérer sa copie via php sur les pages concernées
+vérifier que ce n'est pas un robot qui se connecte par l'adresse IP et la récurrence de la demande : pour signin, demander confirmation en réponse à un mail.
+gérer les avatars utilisateur en gravatar
+passage en mode plein écran : pb resize photo
+gérer suppression de compt et de photos
+
+il faut aussi vérifier en php que les mots de passe sont identiques
+
+Il faut vérifier que javascript est activé, sinon afficher un message
+
+Envoyer les CGV par mail à l'inscription
+
+supprimer tous les logs
+
+gérer l'ensemble des erreurs qui peuvent être renvoyées
+
+mettre les chargements js à la fin du body. Pour signin, signup... Il faut que modalMasg soit de bouveau appelé car j'ai sorti l'apel jquery de ModalMsg
+
+revoir toute la partie aria
